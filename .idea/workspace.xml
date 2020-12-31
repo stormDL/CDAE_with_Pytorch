@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ed64ec0-35f0-4c4e-abeb-1937babf2c80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CDAE_with_Pytorch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/allbut.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/mku.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/u.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/u.genre" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/u.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/u.item" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/u.occupation" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/u.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/u1.base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/u1.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/u2.base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/u2.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/u3.base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/u3.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/u4.base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/u4.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/u5.base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/u5.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/ua.base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/ua.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/ub.base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-100k/ub.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-1m.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-1m/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-1m/movies.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-1m/ratings.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ml-1m/users.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-677">
-              <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+            <state relative-caret-position="-61">
+              <caret line="97" column="20" lean-forward="true" selection-start-line="97" selection-start-column="20" selection-end-line="101" selection-end-column="27" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <element signature="e#105#279#0" />
@@ -215,15 +180,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609414538052</updated>
-      <workItem from="1609414539476" duration="3668000" />
+      <workItem from="1609414539476" duration="4547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3668000" />
+    <option name="totallyTimeSpent" value="4547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14844587" />
@@ -232,11 +198,11 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.4162042" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.57047725" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.472808" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -252,7 +218,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CDAE_with_Pytorch$train.coverage" NAME="train Coverage Results" MODIFIED="1609418199086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CDAE_with_Pytorch$train.coverage" NAME="train Coverage Results" MODIFIED="1609418524652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CDAE_with_Pytorch$layers.coverage" NAME="layers Coverage Results" MODIFIED="1609415563995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
@@ -278,8 +244,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-677">
-          <caret line="75" column="33" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+        <state relative-caret-position="-61">
+          <caret line="97" column="20" lean-forward="true" selection-start-line="97" selection-start-column="20" selection-end-line="101" selection-end-column="27" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <element signature="e#105#279#0" />

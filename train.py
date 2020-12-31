@@ -95,17 +95,17 @@ def train(nb_user, nb_item, nb_hidden,epoches, dataloader, lr, nb_mask, train_se
 
 if __name__ == '__main__':
 
-    nb_user = 6040
-    nb_item = 3952
-    nb_hidden = 24
-    train_set_dict, test_set_dict = read_ml1m('dataset/ml-1m/ratings.dat')
-    train_set, test_set = get_matrix(train_set_dict, test_set_dict, nb_user=nb_user, nb_item=nb_item)
-
-    # nb_user=943
-    # nb_item=1682
-    # nb_hidden = 12
-    # train_set_dict, test_set_dict = read_ml100k('dataset/ml-100k/u1.base', 'dataset/ml-100k/u1.test', sep='\t', header=None)
+    # nb_user = 6040
+    # nb_item = 3952
+    # nb_hidden = 24
+    # train_set_dict, test_set_dict = read_ml1m('dataset/ml-1m/ratings.dat')
     # train_set, test_set = get_matrix(train_set_dict, test_set_dict, nb_user=nb_user, nb_item=nb_item)
+
+    nb_user=943
+    nb_item=1682
+    nb_hidden = 12
+    train_set_dict, test_set_dict = read_ml100k('dataset/ml-100k/u1.base', 'dataset/ml-100k/u1.test', sep='\t', header=None)
+    train_set, test_set = get_matrix(train_set_dict, test_set_dict, nb_user=nb_user, nb_item=nb_item)
     dataset = M_Dataset(train_set)
     dataloader = DataLoader(dataset=dataset, batch_size=32, shuffle=True)
     train(nb_user, nb_item, nb_hidden, epoches=2000, dataloader=dataloader, lr=0.0001, nb_mask=128, train_set=train_set, test_set_dict=test_set_dict, top_k=5)
