@@ -21,10 +21,3 @@ class CDAE(nn.Module):
         out = self.hidden2out(hidden)
         out = self.sigmoid(out)
         return out
-
-
-# model = CDAE(1682, 943, 12)
-# purchase_vec = torch.randn(1024, 1682)
-# uid = torch.ones(1024, 1, dtype=torch.long)
-# out = model(uid, purchase_vec)
-# print(out.size())
